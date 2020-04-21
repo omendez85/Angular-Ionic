@@ -1,0 +1,15 @@
+
+ionic serve
+ionic cordova prepare android / IOS
+ionic cordova run android
+ionic cordova emulate android --target=Pixel_2_API_R
+ionic cordova build android --prod --release
+
+ionic cordova emulate android  --target=Pixel_2_API_R  --livereload-url=http://10.0.2.2:8100
+
+ "@angular-devkit/build-angular": "~0.801.2"
+}
+
+@ionic/angular-toolkit:cordova-build
+
+paulstelzer-ionic-angular-toolkit:cordova-build

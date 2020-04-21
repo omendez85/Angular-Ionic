@@ -1,10 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <h1>
+        {{title}}
+      </h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-6">
+      <button routerLink="/customers">Customers</button>
+    </div>
+    <div class="col-12 col-sm-6">
+      <button routerLink="/orders">Orders</button>
+      <button routerLink="">Home</button>
+    </div>
+  </div>
+</div>
 
-<button routerLink="/customers">Customers</button>
-<button routerLink="/orders">Orders</button>
-<button routerLink="">Home</button>
 
 <router-outlet></router-outlet>
 
